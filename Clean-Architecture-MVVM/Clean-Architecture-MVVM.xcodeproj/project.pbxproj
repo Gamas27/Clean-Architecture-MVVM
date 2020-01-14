@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		9E41995F23CDE502006DCCC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E41995D23CDE502006DCCC1 /* LaunchScreen.storyboard */; };
 		9E41996A23CDE502006DCCC1 /* Clean_Architecture_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E41996923CDE502006DCCC1 /* Clean_Architecture_MVVMTests.swift */; };
 		9E41997523CDE502006DCCC1 /* Clean_Architecture_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E41997423CDE502006DCCC1 /* Clean_Architecture_MVVMUITests.swift */; };
+		9E41998423CE0BDD006DCCC1 /* BuildTools in Frameworks */ = {isa = PBXBuildFile; productRef = 9E41998323CE0BDD006DCCC1 /* BuildTools */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E41998423CE0BDD006DCCC1 /* BuildTools in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +157,9 @@
 			dependencies = (
 			);
 			name = "Clean-Architecture-MVVM";
+			packageProductDependencies = (
+				9E41998323CE0BDD006DCCC1 /* BuildTools */,
+			);
 			productName = "Clean-Architecture-MVVM";
 			productReference = 9E41994C23CDE500006DCCC1 /* Clean-Architecture-MVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -227,6 +232,9 @@
 				Base,
 			);
 			mainGroup = 9E41994323CDE500006DCCC1;
+			packageReferences = (
+				9E41998223CE0BDD006DCCC1 /* XCRemoteSwiftPackageReference "SwiftBuildTools" */,
+			);
 			productRefGroup = 9E41994D23CDE500006DCCC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E41998223CE0BDD006DCCC1 /* XCRemoteSwiftPackageReference "SwiftBuildTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Gamas27/SwiftBuildTools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E41998323CE0BDD006DCCC1 /* BuildTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E41998223CE0BDD006DCCC1 /* XCRemoteSwiftPackageReference "SwiftBuildTools" */;
+			productName = BuildTools;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9E41995323CDE500006DCCC1 /* Clean_Architecture_MVVM.xcdatamodeld */ = {
