@@ -3,19 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9E41995023CDE500006DCCC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E41994F23CDE500006DCCC1 /* AppDelegate.swift */; };
-		9E41995223CDE500006DCCC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E41995123CDE500006DCCC1 /* SceneDelegate.swift */; };
 		9E41995523CDE500006DCCC1 /* Clean_Architecture_MVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E41995323CDE500006DCCC1 /* Clean_Architecture_MVVM.xcdatamodeld */; };
-		9E41995723CDE500006DCCC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E41995623CDE500006DCCC1 /* ContentView.swift */; };
 		9E41995923CDE502006DCCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E41995823CDE502006DCCC1 /* Assets.xcassets */; };
 		9E41995C23CDE502006DCCC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E41995B23CDE502006DCCC1 /* Preview Assets.xcassets */; };
 		9E41995F23CDE502006DCCC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E41995D23CDE502006DCCC1 /* LaunchScreen.storyboard */; };
-		9E41996A23CDE502006DCCC1 /* Clean_Architecture_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E41996923CDE502006DCCC1 /* Clean_Architecture_MVVMTests.swift */; };
-		9E41997523CDE502006DCCC1 /* Clean_Architecture_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E41997423CDE502006DCCC1 /* Clean_Architecture_MVVMUITests.swift */; };
+		9E41998423CE0BDD006DCCC1 /* BuildTools in Frameworks */ = {isa = PBXBuildFile; productRef = 9E41998323CE0BDD006DCCC1 /* BuildTools */; };
+		9E41998F23CE0EF9006DCCC1 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E41998E23CE0EF9006DCCC1 /* AppDIContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +36,16 @@
 /* Begin PBXFileReference section */
 		9E41994C23CDE500006DCCC1 /* Clean-Architecture-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean-Architecture-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E41994F23CDE500006DCCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E41995123CDE500006DCCC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E41995423CDE500006DCCC1 /* Clean_Architecture_MVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clean_Architecture_MVVM.xcdatamodel; sourceTree = "<group>"; };
-		9E41995623CDE500006DCCC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E41995823CDE502006DCCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E41995B23CDE502006DCCC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E41995E23CDE502006DCCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E41996023CDE502006DCCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E41996523CDE502006DCCC1 /* Clean-Architecture-MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean-Architecture-MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E41996923CDE502006DCCC1 /* Clean_Architecture_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_Architecture_MVVMTests.swift; sourceTree = "<group>"; };
 		9E41996B23CDE502006DCCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E41997023CDE502006DCCC1 /* Clean-Architecture-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean-Architecture-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E41997423CDE502006DCCC1 /* Clean_Architecture_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_Architecture_MVVMUITests.swift; sourceTree = "<group>"; };
 		9E41997623CDE502006DCCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E41998E23CE0EF9006DCCC1 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E41998423CE0BDD006DCCC1 /* BuildTools in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,13 +97,12 @@
 		9E41994E23CDE500006DCCC1 /* Clean-Architecture-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				9E41994F23CDE500006DCCC1 /* AppDelegate.swift */,
-				9E41995123CDE500006DCCC1 /* SceneDelegate.swift */,
-				9E41995623CDE500006DCCC1 /* ContentView.swift */,
-				9E41995823CDE502006DCCC1 /* Assets.xcassets */,
-				9E41995D23CDE502006DCCC1 /* LaunchScreen.storyboard */,
-				9E41996023CDE502006DCCC1 /* Info.plist */,
-				9E41995323CDE500006DCCC1 /* Clean_Architecture_MVVM.xcdatamodeld */,
+				9E41998A23CE0C96006DCCC1 /* Resources */,
+				9E41998923CE0C79006DCCC1 /* Infrastructure */,
+				9E41998823CE0C72006DCCC1 /* Data */,
+				9E41998723CE0C67006DCCC1 /* Presentation */,
+				9E41998623CE0C61006DCCC1 /* Domain */,
+				9E41998523CE0C4F006DCCC1 /* Application */,
 				9E41995A23CDE502006DCCC1 /* Preview Content */,
 			);
 			path = "Clean-Architecture-MVVM";
@@ -124,7 +119,9 @@
 		9E41996823CDE502006DCCC1 /* Clean-Architecture-MVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				9E41996923CDE502006DCCC1 /* Clean_Architecture_MVVMTests.swift */,
+				9E41999923CE1275006DCCC1 /* Infrastructure */,
+				9E41999823CE1269006DCCC1 /* Presentation */,
+				9E41999723CE1261006DCCC1 /* Domain */,
 				9E41996B23CDE502006DCCC1 /* Info.plist */,
 			);
 			path = "Clean-Architecture-MVVMTests";
@@ -133,10 +130,166 @@
 		9E41997323CDE502006DCCC1 /* Clean-Architecture-MVVMUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9E41997423CDE502006DCCC1 /* Clean_Architecture_MVVMUITests.swift */,
+				9E41999A23CE129B006DCCC1 /* Presentation */,
 				9E41997623CDE502006DCCC1 /* Info.plist */,
 			);
 			path = "Clean-Architecture-MVVMUITests";
+			sourceTree = "<group>";
+		};
+		9E41998523CE0C4F006DCCC1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9E41998D23CE0EE0006DCCC1 /* DIContainer */,
+				9E41994F23CDE500006DCCC1 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9E41998623CE0C61006DCCC1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				9E41999223CE0F5C006DCCC1 /* Interfaces */,
+				9E41999123CE0F53006DCCC1 /* UseCases */,
+				9E41999023CE0F49006DCCC1 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		9E41998723CE0C67006DCCC1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9E41998823CE0C72006DCCC1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9E41999523CE0FF4006DCCC1 /* Repositories */,
+				9E41999423CE0FBA006DCCC1 /* Network */,
+				9E41998B23CE0E98006DCCC1 /* PersistentStorages */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9E41998923CE0C79006DCCC1 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				9E41999623CE102D006DCCC1 /* Network */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		9E41998A23CE0C96006DCCC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E41995823CDE502006DCCC1 /* Assets.xcassets */,
+				9E41995D23CDE502006DCCC1 /* LaunchScreen.storyboard */,
+				9E41996023CDE502006DCCC1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E41998B23CE0E98006DCCC1 /* PersistentStorages */ = {
+			isa = PBXGroup;
+			children = (
+				9E41998C23CE0EB2006DCCC1 /* CoreDataStorage */,
+			);
+			path = PersistentStorages;
+			sourceTree = "<group>";
+		};
+		9E41998C23CE0EB2006DCCC1 /* CoreDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				9E41995323CDE500006DCCC1 /* Clean_Architecture_MVVM.xcdatamodeld */,
+			);
+			path = CoreDataStorage;
+			sourceTree = "<group>";
+		};
+		9E41998D23CE0EE0006DCCC1 /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				9E41998E23CE0EF9006DCCC1 /* AppDIContainer.swift */,
+			);
+			path = DIContainer;
+			sourceTree = "<group>";
+		};
+		9E41999023CE0F49006DCCC1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		9E41999123CE0F53006DCCC1 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		9E41999223CE0F5C006DCCC1 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				9E41999323CE0F71006DCCC1 /* Repositories */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		9E41999323CE0F71006DCCC1 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9E41999423CE0FBA006DCCC1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9E41999523CE0FF4006DCCC1 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9E41999623CE102D006DCCC1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9E41999723CE1261006DCCC1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		9E41999823CE1269006DCCC1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9E41999923CE1275006DCCC1 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		9E41999A23CE129B006DCCC1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +308,9 @@
 			dependencies = (
 			);
 			name = "Clean-Architecture-MVVM";
+			packageProductDependencies = (
+				9E41998323CE0BDD006DCCC1 /* BuildTools */,
+			);
 			productName = "Clean-Architecture-MVVM";
 			productReference = 9E41994C23CDE500006DCCC1 /* Clean-Architecture-MVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -227,6 +383,9 @@
 				Base,
 			);
 			mainGroup = 9E41994323CDE500006DCCC1;
+			packageReferences = (
+				9E41998223CE0BDD006DCCC1 /* XCRemoteSwiftPackageReference "SwiftBuildTools" */,
+			);
 			productRefGroup = 9E41994D23CDE500006DCCC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -272,8 +431,7 @@
 			files = (
 				9E41995523CDE500006DCCC1 /* Clean_Architecture_MVVM.xcdatamodeld in Sources */,
 				9E41995023CDE500006DCCC1 /* AppDelegate.swift in Sources */,
-				9E41995723CDE500006DCCC1 /* ContentView.swift in Sources */,
-				9E41995223CDE500006DCCC1 /* SceneDelegate.swift in Sources */,
+				9E41998F23CE0EF9006DCCC1 /* AppDIContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +439,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E41996A23CDE502006DCCC1 /* Clean_Architecture_MVVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +446,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E41997523CDE502006DCCC1 /* Clean_Architecture_MVVMUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +598,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Clean-Architecture-MVVM/Preview Content\"";
 				DEVELOPMENT_TEAM = 7PALXJ22GR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Clean-Architecture-MVVM/Info.plist";
+				INFOPLIST_FILE = "Clean-Architecture-MVVM/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +618,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Clean-Architecture-MVVM/Preview Content\"";
 				DEVELOPMENT_TEAM = 7PALXJ22GR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Clean-Architecture-MVVM/Info.plist";
+				INFOPLIST_FILE = "Clean-Architecture-MVVM/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -598,6 +754,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E41998223CE0BDD006DCCC1 /* XCRemoteSwiftPackageReference "SwiftBuildTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Gamas27/SwiftBuildTools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E41998323CE0BDD006DCCC1 /* BuildTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E41998223CE0BDD006DCCC1 /* XCRemoteSwiftPackageReference "SwiftBuildTools" */;
+			productName = BuildTools;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9E41995323CDE500006DCCC1 /* Clean_Architecture_MVVM.xcdatamodeld */ = {
